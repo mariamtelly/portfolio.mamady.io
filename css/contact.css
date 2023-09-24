@@ -11868,29 +11868,18 @@ body, html {
   height: 300px;
 }
 
-.form-group {
-  position: relative;
+.form-group input::placeholder, .form-group textarea::placeholder {
+  font-weight: bold;
+  color: rgb(125, 125, 125);
 }
 
-label {
-  position: absolute;
-  top: 5px;
-  left: 10px;
-  pointer-events: none;
-  transition: 0.3s ease all;
-}
-
-/* Style the input field when it's focused or has content */
-.form-group input:focus,
-.form-group input:not(:placeholder-shown) {
-  border-color: #DC3545; /* Customize the border color */
-  box-shadow: 0 0 10px #DC3545; /* Customize the shadow */
-}
-
-/* Move the label up when the input field is focused or has content */
-.form-group input:focus ~ label,
-.form-group input:not(:placeholder-shown) ~ label {
-  top: -30px;
+.map {
+  height: 400px;
+  width: 100%;
+  background-image: url("../img/map.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=contact.css.map */
