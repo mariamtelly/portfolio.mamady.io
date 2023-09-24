@@ -1,0 +1,25 @@
+@import "_variables_override.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    .main__header {
+        background-image: url("../img/portrait1.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+    }
+
+    .main__banner{
+        background-image: url("../img/banner.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 150px;
+    }
+}

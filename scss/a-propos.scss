@@ -1,0 +1,57 @@
+@import "_variables_override.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body, html, main, footer {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url("../img/banner-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.arrow {
+    height: 20px;
+    width: 25px;
+}
+
+.bullet {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid $primary;
+    background-color: white;
+}
+
+.orange-bullet {
+    height: 100%;
+}
+
+.orange {
+    background-color: $orange;
+}
+
+.purple {
+    background-color: $purple;
+}
+
+.blue {
+    background-color: $blue;
+}
+
+.pink {
+    background-color: $pink;
+}
+
+.another-pink {
+    background-color: $another-pink;
+}
+
+.another-orange {
+    background-color: $another-orange;
+}
